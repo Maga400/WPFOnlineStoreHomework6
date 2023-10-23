@@ -1,0 +1,18 @@
+﻿<NavigationWindow x:Class="WPFOnlineStoreHomework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFOnlineStoreHomework"
+        mc:Ignorable="d"
+                 ShowsNavigationUI="False"
+        Title="" Height="450" Width="800">
+    
+    <NavigationWindow.Content>
+        <!--<Frame Source="../ProjectPages/ResourcePage.xaml"/>-->
+        <!--<Frame Source="../ProjectPages/MyBindings.xaml"/>-->
+        <!--<Frame Source="../ProjectPages/BindingPages_Property.xaml"/>-->
+        <!--<Frame Source ="AboutPage.xaml"/>-->
+        <Frame Source ="StorePage.xaml"/>
+    </NavigationWindow.Content>
+</NavigationWindow>
